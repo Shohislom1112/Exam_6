@@ -7,7 +7,7 @@ import "./App.scss";
 import Home from "./pages/home/Home";
 import Login from "./pages/login/Login";
 import NotTovar from "./pages/nottovar/NotTovar";
-import NotFound from "./pages/notfound/NotFound";
+import NotFound from "./pages/notFound/NotFound";
 import AddTovar from "./pages/addtovar/AddTovar";
 // import Loader from 'react-loaders';
 import Profile from "./pages/profile/Profile";
