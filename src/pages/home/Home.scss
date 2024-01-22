@@ -1,0 +1,55 @@
+.div {
+    margin: 40px;
+    background: white;
+    width: 1179px;
+    height: auto;
+    flex-shrink: 0;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    .div2 {
+        margin-top: 44px;
+        // margin-left: ;
+        display: flex;
+        justify-content: space-between;
+        padding:15px;
+        .search {
+            width: 250px;
+height: 40px;
+flex-shrink: 0;
+border-radius: 12px;
+background: #F7F7FF;
+color: #A4A4BA;
+
+font-family: Mulish;
+font-size: 15px;
+font-style: normal;
+font-weight: 700;
+line-height: 21px; /* 140% */
+border-color: wheat;
+        }
+    }
+    .tovar_name  {
+        // background: #F7F7FF;
+        margin: 15px;
+            .tovarr{
+
+                display: flex;
+                gap: 124px;
+                margin: 25px;
+                padding: 25px;
+                .p {
+                    border-right: 5px #000000 ;
+                    justify-content: flex-start;
+                    display: flex;
+                    gap: 15px;
+                    padding: 5px;
+                    border: 2px solid #000000;
+                    transition: 0.8s;
+                    border-radius: 8px;
+                    border-color: rgb(0, 0, 0);
+                    
+                }
+            }
+    }
+}

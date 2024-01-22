@@ -1,0 +1,54 @@
+.Nottovar {
+    // padding: 40px;
+    margin: 40px;
+background: white;
+width: 1179px;
+height: 548px;
+flex-shrink: 0;
+border-radius: 12px;
+display: flex;
+flex-direction: column;
+// gap: 64px 443px;
+.h3 {
+    margin-left: 25px;
+    padding: 30px ;
+    width: 1130px;
+height: 16px;
+flex-shrink: 0;
+color: #212121;
+
+text-align: center;
+font-family: Mulish;
+font-size: 21px;
+font-style: normal;
+font-weight: 800;
+line-height: 72%; /* 15.12px */
+}
+.image2 {
+    margin-top: 64px;
+margin-left: 433px;
+width: 313px;
+height: 235px;
+flex-shrink: 0;
+}
+.butt {
+    text-decoration: none;
+text-align: center;
+margin-top: 65px;
+margin-left: 478px;
+width: 208px;
+display: inline-flex;
+padding: 15px 24px 14px 24px;
+align-items: flex-start;
+gap: 19px;
+border-radius: 6px;
+background: #1BC58D;
+color: #FFF;
+text-align: center;
+font-family: Mulish;
+font-size: 15px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+}

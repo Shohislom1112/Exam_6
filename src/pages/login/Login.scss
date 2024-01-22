@@ -1,0 +1,33 @@
+.login {
+    margin: 40px;
+    background: white;
+    width: 1179px;
+    height: 548px;
+    flex-shrink: 0;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    .row {
+        margin-top: 100px;
+        display: flex;
+        flex-direction: column;
+        margin-left: 443px;
+    }
+    .frr {
+        margin-left: 445px;
+    }
+    .butta {
+        margin-left: 503px;
+    }
+    .inpp {
+        margin-top: 250px;
+        text-align: center;
+        .usern{
+
+            margin-left: 433px;
+        }
+        .name {
+            margin-left: 433px;
+        }
+    }
+}
