@@ -50,10 +50,10 @@ const [search, setSearch] = useState('');
           <div className="tovarr">
               {/* <Header /> */}
               <p className='home__text p'>Наименование</p>
-            <p className='home__category p'>Артикул</p>
-            <p className='home__brend p'>Бренд</p>
-            <p className='home__cost p'>Цена</p>
-            <p className='home__stock p'>Цена со скидкой</p>
+            <p className='home__category p1'>Артикул</p>
+            <p className='home__brend p2'>Бренд</p>
+            <p className='home__cost p3'>Цена</p>
+            <p className='home__stock p4'>Цена со скидкой</p>
                      
 
           </div>
@@ -65,16 +65,16 @@ const [search, setSearch] = useState('');
                   <input type="checkbox" />
                   Товар{allcard.id}
                   </li>
-              <li className='home__category p'>
+              <li className='home__category p1'>
                   {allcard.category}
               </li>
-              <li className='home__brend p'>
+              <li className='home__brend p2'>
                   {allcard.brand}
               </li>
-              <li className='home__cost p'>
+              <li className='home__cost p3'>
                   {allcard.price} $
               </li>
-              <li className='home__stock p'>
+              <li className='home__stock p4'>
                   {allcard.stock}$
                   <hr />
               </li>
