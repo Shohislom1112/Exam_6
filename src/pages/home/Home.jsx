@@ -7,7 +7,6 @@ import axios from "axios";
 function Home() {
   // const [error, setError] = useState('');
 const [allcard, setAllcard] = useState([])
-// const [comment, setComment] = useState([])
 const [search, setSearch] = useState('');
   
 
@@ -61,26 +60,26 @@ const [search, setSearch] = useState('');
 <hr />
             {
                 allcard.map((allcard) => (
-                  <tr key={allcard.id} className='tovarr'>
-                  <th className='home__text p'>
+                  <ul key={allcard.id} className='tovarr'>
+                  <li className='home__text p'>
                   <input type="checkbox" />
                   Товар{allcard.id}
-                  </th>
-              <th className='home__category p'>
+                  </li>
+              <li className='home__category p'>
                   {allcard.category}
-              </th>
-              <th className='home__brend p'>
+              </li>
+              <li className='home__brend p'>
                   {allcard.brand}
-              </th>
-              <th className='home__cost p'>
+              </li>
+              <li className='home__cost p'>
                   {allcard.price} $
-              </th>
-              <th className='home__stock p'>
+              </li>
+              <li className='home__stock p'>
                   {allcard.stock}$
                   <hr />
-              </th>
+              </li>
               
-              </tr>
+              </ul>
                 ))
               }
               <hr />
