@@ -9,7 +9,7 @@ import "./Sidebar.scss"
 function Sidebar() {
     return (
       <div className='sidebar'>
-            <NavLink to="/" className="Img1"><img src={maskGroup} alt="" /></NavLink>
+            <NavLink to="/home" className="Img1"><img src={maskGroup} alt="" /></NavLink>
             <NavLink to="profile" className="Img"><img src={nastroyka} alt="" /></NavLink>
             <NavLink to="login" className="Img"><img src={profil} alt="" /></NavLink>
             <NavLink to="" className="Img"><img src={group} alt="" /></NavLink>
